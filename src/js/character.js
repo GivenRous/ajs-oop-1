@@ -3,7 +3,7 @@ export default class Character {
       if ((name.length < 2) || (name.length > 10)) {
         throw new Error('Имя должно содержать от 2 до 10 символов');
       }
-      const arr = ['Bowman', 'Swordsman', 'Magician', 'Daemon', 'Undead', 'Zombie'];
+      const arr = ['Bowman', 'Swordsman', 'Magician', 'Demon', 'Undead', 'Zombie'];
       if (!arr.includes(type)) {
         throw new Error('Недопустимый тип персонажа');
       }
